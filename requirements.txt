@@ -9,4 +9,4 @@ tensorflow
 scikit-learn
 GpyOpt
 Gpy
-libxrender1
+libclang
