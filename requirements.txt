@@ -6,3 +6,4 @@ rdkit
 tabulate
 matplotlib
 tensorflow
+scikit-learn
