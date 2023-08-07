@@ -3,3 +3,4 @@ streamlit-ketcher
 numpy
 pandas
 rdkit
+tabulate
