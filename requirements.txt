@@ -9,3 +9,4 @@ tensorflow
 scikit-learn
 GpyOpt
 Gpy
+libxrender1
