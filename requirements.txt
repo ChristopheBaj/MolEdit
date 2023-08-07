@@ -7,3 +7,5 @@ tabulate
 matplotlib
 tensorflow
 scikit-learn
+GpyOpt
+Gpy
