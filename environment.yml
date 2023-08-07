@@ -1,1 +1,8 @@
-xorg-libxrender
+
+name: base
+channels:
+  - conda-forge
+  - xorg
+  - nodefaults
+dependencies:
+  - xorg::xorg-libxrender
