@@ -15,9 +15,6 @@ from SMILESX import interpret
 
 import os
 
-exemple = pd.read_csv('./data/FreeSolv_SAMPL.csv')
-st.dataframe(exemple)
-
 st.title('Streamlit + SMILESX :rocket:')
 
 choice = st.radio('Do you have a list of SMILES to predict?',('No','Yes'))
@@ -90,7 +87,7 @@ if smiles_button:
     data_name = 'FreeSolv'
     data_label = 'Hydration free energy'
     data_units = 'kcal/mol'
-    data = pd.read_csv(data_path, sep=",")
+    data = pd.read_csv(data_path)
 
     model = loadmodel.LoadModel(data_name=data_name,
                                 augment=False,
