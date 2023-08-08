@@ -34,6 +34,7 @@ jsonschema==4.17.3
 keras==2.12.0
 kiwisolver==1.4.4
 libclang==16.0.0
+libxrender
 Markdown==3.4.3
 markdown-it-py==2.2.0
 MarkupSafe==2.1.2
