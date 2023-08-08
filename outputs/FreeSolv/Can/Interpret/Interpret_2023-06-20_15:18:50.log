@@ -1,0 +1,16 @@
+2023-06-20 15:18:50:   ******************************************
+2023-06-20 15:18:50:   ***   SMILESX INTERPRETATION STARTED   ***
+2023-06-20 15:18:50:   ******************************************
+2023-06-20 15:18:50:   
+2023-06-20 15:18:50:   Interpretation logs path:
+2023-06-20 15:18:50:   ./outputs/FreeSolv/Can/Interpret/Interpret_2023-06-20_15:18:50.log
+2023-06-20 15:18:50:   
+2023-06-20 15:18:50:   Ground truth property values are not provided.
+2023-06-20 15:18:50:   They will not be displayed on the attention maps.
+2023-06-20 15:18:50:   
+2023-06-20 15:18:50:   Full vocabulary: ['pad', 'unk', ' ', '3', '[O-]', '[C@]', '[S+2]', '/', 'C', '[C@@]', 'I', ')', '(', '1', '4', '5', '[nH]', '-', '[C@H]', 'F', 'n', 'Br', '[N+]', 'c', 's', 'N', '2', 'Cl', 'P', '=', '[C@@H]', 'O', '#', 'S']
+2023-06-20 15:18:50:   Vocabulary size: 34
+2023-06-20 15:18:50:   Maximum length of tokenized SMILES: 47 tokens.
+
+2023-06-20 15:18:54:   *******
+2023-06-20 15:18:54:   SMILES: OC1C2COC(O2)C(O)C1O

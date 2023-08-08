@@ -1,0 +1,2 @@
+Embedding,LSTM,TD dense,Batch size,Learning rate
+512,128,128,16,3.9

@@ -1,0 +1,89 @@
+2023-06-13 13:08:28:   *************************************
+2023-06-13 13:08:28:   ***   SMILESX INFERENCE STARTED   ***
+2023-06-13 13:08:28:   *************************************
+2023-06-13 13:08:28:   
+2023-06-13 13:08:28:   Inference logs path:
+2023-06-13 13:08:28:   ./outputs/FreeSolv/Can/Inference/Can/Inference_2023-06-13_13:08:28.log
+2023-06-13 13:08:28:   
+2023-06-13 13:08:28:   Full vocabulary: ['pad', 'unk', ' ', '3', '[O-]', '[C@]', '[S+2]', '/', 'C', '[C@@]', 'I', ')', '(', '1', '4', '5', '[nH]', '-', '[C@H]', 'F', 'n', 'Br', '[N+]', 'c', 's', 'N', '2', 'Cl', 'P', '=', '[C@@H]', 'O', '#', 'S']
+2023-06-13 13:08:28:   Vocabulary size: 34
+2023-06-13 13:08:28:   Maximum length of tokenized SMILES: 47 tokens.
+
+2023-06-13 13:08:28:   Number of enumerated SMILES: 64
+2023-06-13 13:08:28:   
+2023-06-13 13:08:28:   Tokenization of SMILES...
+2023-06-13 13:08:29:   
+2023-06-13 13:08:29:   Prediction results:
+    SMILES                                                              Prediction (mean)    Prediction (std)
+--  ----------------------------------------------------------------  -------------------  ------------------
+ 0  C                                                                           -1.30199             0.355365
+ 1  CC                                                                          -0.89112             0.282599
+ 2  CC1                                                                         -1.83606             0.567006
+ 3  CC1(                                                                        -2.15015             0.615124
+ 4  CC1(C                                                                       -1.62288             0.580179
+ 5  CC1(C(                                                                      -1.89354             0.642488
+ 6  CC1(C(=                                                                     -2.32775             0.445995
+ 7  CC1(C(=O                                                                    -4.55711             0.41581
+ 8  CC1(C(=O)                                                                   -4.80081             0.446399
+ 9  CC1(C(=O)O                                                                  -7.00436             0.379057
+10  CC1(C(=O)O)                                                                 -7.23339             0.398289
+11  CC1(C(=O)O)C                                                                -6.73492             0.40162
+12  CC1(C(=O)O)CC                                                               -6.20141             0.403856
+13  CC1(C(=O)O)CCC                                                              -5.66712             0.402567
+14  CC1(C(=O)O)CCC2                                                             -5.65184             0.441377
+15  CC1(C(=O)O)CCC2(                                                            -5.77111             0.459134
+16  CC1(C(=O)O)CCC2(C                                                           -5.29169             0.46304
+17  CC1(C(=O)O)CCC2(C)                                                          -5.27511             0.445758
+18  CC1(C(=O)O)CCC2(C)C                                                         -4.84064             0.446055
+19  CC1(C(=O)O)CCC2(C)CC                                                        -4.41711             0.441866
+20  CC1(C(=O)O)CCC2(C)CCC                                                       -4.00866             0.434228
+21  CC1(C(=O)O)CCC2(C)CCC3                                                      -3.96781             0.460092
+22  CC1(C(=O)O)CCC2(C)CCC3C                                                     -3.6015              0.465033
+23  CC1(C(=O)O)CCC2(C)CCC3C(                                                    -3.63826             0.487343
+24  CC1(C(=O)O)CCC2(C)CCC3C(=                                                   -3.81035             0.403017
+25  CC1(C(=O)O)CCC2(C)CCC3C(=C                                                  -3.4607              0.423534
+26  CC1(C(=O)O)CCC2(C)CCC3C(=CC                                                 -3.11406             0.437651
+27  CC1(C(=O)O)CCC2(C)CCC3C(=CC(                                                -3.16739             0.46624
+28  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=                                               -3.34028             0.401622
+29  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O                                              -4.4667              0.353366
+30  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)                                             -4.56805             0.330165
+31  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C                                            -4.27385             0.335023
+32  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4                                           -4.30532             0.3168
+33  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C                                          -4.00855             0.319196
+34  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3                                         -3.98416             0.320653
+35  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(                                        -4.06583             0.347225
+36  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C                                       -3.77936             0.36768
+37  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)                                      -3.77445             0.340093
+38  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)C                                     -3.49998             0.35681
+39  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CC                                    -3.22536             0.370262
+40  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC                                   -2.95335             0.38121
+41  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3                                  -2.91543             0.413308
+42  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C                                 -2.66116             0.444211
+43  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(                                -2.67671             0.472539
+44  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C                               -2.41378             0.51619
+45  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)                              -2.2772              0.490942
+46  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(                             -2.41694             0.514314
+47  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C                            -2.19465             0.549401
+48  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)                           -1.96827             0.487292
+49  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C                          -1.60732             0.478232
+50  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(                         -1.66891             0.525031
+51  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O                        -2.35328             0.46352
+52  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)                       -2.16561             0.483289
+53  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)C                      -1.30427             0.563324
+54  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CC                     -0.943342            0.588003
+55  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC                    -0.272901            0.638177
+56  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC3                   -0.274342            0.661004
+57  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC34                  -0.494848            0.603228
+58  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC34C                 -0.453688            0.636134
+59  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC34C)                -0.634049            0.632936
+60  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC34C)C               -0.428982            0.63127
+61  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC34C)C2              -0.471006            0.627988
+62  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC34C)C2C             -0.440822            0.645942
+63  CC1(C(=O)O)CCC2(C)CCC3C(=CC(=O)C4C3(C)CCC3C(C)(C)C(O)CCC34C)C2C1            -0.755384            0.739639
+2023-06-13 13:08:29:   
+2023-06-13 13:08:29:   ***************************************
+2023-06-13 13:08:29:   ***   SMILESX INFERENCE COMPLETED   ***
+2023-06-13 13:08:29:   ***************************************
+2023-06-13 13:08:29:   ********************************************
+2023-06-13 13:08:29:   ***   SMILESX INTERPRETATION COMPLETED   ***
+2023-06-13 13:08:29:   ********************************************
