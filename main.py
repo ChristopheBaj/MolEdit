@@ -15,6 +15,9 @@ from SMILESX import interpret
 
 import os
 
+exemple = pd.read_csv('./data/FreeSolv_SAMPL.csv',sep = ',')
+st.dataframe(exemple)
+
 st.title('Streamlit + SMILESX :rocket:')
 
 choice = st.radio('Do you have a list of SMILES to predict?',('No','Yes'))
