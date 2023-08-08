@@ -15,6 +15,8 @@ from SMILESX import interpret
 
 import os
 
+print('getcwd:      ', os.getcwd())
+print('__file__:    ', __file__)
 
 st.title('Streamlit + SMILESX :rocket:')
 
