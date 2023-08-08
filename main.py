@@ -15,7 +15,7 @@ from SMILESX import interpret
 
 import os
 
-exemple = pd.read_csv('./data/FreeSolv_SAMPL.csv',sep = ',')
+exemple = pd.read_csv('./data/FreeSolv_SAMPL.csv')
 st.dataframe(exemple)
 
 st.title('Streamlit + SMILESX :rocket:')
