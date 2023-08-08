@@ -90,7 +90,7 @@ if smiles_button:
     data_name = 'FreeSolv'
     data_label = 'Hydration free energy'
     data_units = 'kcal/mol'
-    data = pd.read_csv(data_path)
+    data = pd.read_csv(data_path, sep=",")
 
     model = loadmodel.LoadModel(data_name=data_name,
                                 augment=False,
