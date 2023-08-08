@@ -15,8 +15,6 @@ from SMILESX import interpret
 
 import os
 
-st.write('getcwd:      ', os.getcwd())
-
 st.title('Streamlit + SMILESX :rocket:')
 
 choice = st.radio('Do you have a list of SMILES to predict?',('No','Yes'))
@@ -85,7 +83,7 @@ mol = Chem.MolFromSmiles(res)
 
 smiles_button = st.button(label = 'Launch the prediction')
 if smiles_button:
-    data_path = "./moledit/data/FreeSolv_SAMPL.csv"
+    data_path = "./data/FreeSolv_SAMPL.csv"
     data_name = 'FreeSolv'
     data_label = 'Hydration free energy'
     data_units = 'kcal/mol'
